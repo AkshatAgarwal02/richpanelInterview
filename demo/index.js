@@ -46,9 +46,7 @@ class Dummy extends Component {
       <div>
         <Link to="/">Back</Link>
         <h1>
-          This is just a dummy page to perform the RichPanel Task<br />
-         
-          </a>
+          This is just a dummy page to perform the RichPanel Task
         </h1>
       </div>
     );
