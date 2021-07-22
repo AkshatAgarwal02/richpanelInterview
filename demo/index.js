@@ -17,7 +17,7 @@ class Base extends Component {
         <div>
           <p>Facebook login with default button and styling</p>
           <FacebookLoginWithButton
-            appId="1088597931155576"
+            appId=""
             autoLoad
             callback={responseFacebook}
             icon="fa-facebook"
@@ -27,7 +27,7 @@ class Base extends Component {
         <div>
           <p>Facebook login with render prop (and no styling provided out the box)</p>
           <FacebookLogin
-            appId="1088597931155576"
+            appId=""
             autoLoad
             callback={responseFacebook}
             render={renderProps => (
@@ -47,7 +47,6 @@ class Dummy extends Component {
         <Link to="/">Back</Link>
         <h1>
           This is just a dummy page to test the button<br />
-          <a href="https://github.com/keppelen/react-facebook-login/pull/76#issuecomment-262098946">
             survives back and forth routing
           </a>
         </h1>
