@@ -17,7 +17,7 @@ class Base extends Component {
         <div>
           <p>Facebook login with default button and styling</p>
           <FacebookLoginWithButton
-            appId=""
+            appId="797676704228158"
             autoLoad
             callback={responseFacebook}
             icon="fa-facebook"
@@ -27,7 +27,7 @@ class Base extends Component {
         <div>
           <p>Facebook login with render prop (and no styling provided out the box)</p>
           <FacebookLogin
-            appId=""
+            appId="797676704228158"
             autoLoad
             callback={responseFacebook}
             render={renderProps => (
