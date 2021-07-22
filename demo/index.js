@@ -12,7 +12,7 @@ class Base extends Component {
   render() {
     return (
       <div>
-        <Link to="/dummy">Route to dummy page</Link>
+        <Link to="/dummy">Routing to Akshat Page</Link>
 
         <div>
           <p>Facebook login with default button and styling</p>
@@ -46,8 +46,8 @@ class Dummy extends Component {
       <div>
         <Link to="/">Back</Link>
         <h1>
-          This is just a dummy page to test the button<br />
-            survives back and forth routing
+          This is just a dummy page to perform the RichPanel Task<br />
+         
           </a>
         </h1>
       </div>
